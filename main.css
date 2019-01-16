@@ -1,0 +1,92 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+.card-footer{
+  width:20px;
+  height:20px;
+  border-radius: 50%;
+  border:solid 1px white;
+}
+
+#side1{position: relative;
+    display:inline-block;
+    transform: translateX(-150px) ;
+    z-index: 99;
+    transition: all .5s;
+    bottom: 10%;
+
+}
+#side2{position: relative;
+    display:inline-block;
+    transform: translateX(-100px);
+    z-index: 9;
+    transition: all .5s;
+    bottom: 10%;
+}
+#side3{
+  position: relative;
+    display:inline-block;
+    transform: translateX(-50px);
+    z-index: 9;
+    transition: all .5s;
+    bottom: 10%;
+}
+#side4{
+  position: relative;
+  display:inline-block;
+    transform: translateX(0px);
+    z-index: 9;
+    transition: all .5s;
+    bottom: 10%;
+}
+#side5{
+  position: relative;
+  display:inline-block;
+    transform: translateX(50px);
+    z-index: 9;
+    transition: all .5s;
+    bottom: 10%;
+}
+
+
+
+#pre{position: relative;
+   background-color: white;
+    height: 20px;
+    width: 20px;
+    border: 2px solid black;
+    z-index: 1000;
+    border-radius: 50%;
+    margin-left: 80%;
+
+
+}
+#pre:hover{
+    cursor: pointer;
+    background-color:#6204A4 ;
+}
+#nex{position: relative;
+  background-color: white;
+    height: 20px;
+    width: 20px;
+    border: 2px solid black;
+    z-index: 1000;
+    border-radius: 50%;
+
+}
+#nex:hover{
+    cursor: pointer;
+    background-color:#6204A4 ;
+}
+
+
+.contr{
+position: relative;
+margin-top:5%;
+
+}
+.main, .shift1 {
+  width: 100%;
+}
